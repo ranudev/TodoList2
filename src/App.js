@@ -1,12 +1,13 @@
 import "./App.css";
-import Body from "./components/Body/Body";
-import Header from "./components/Header/Header";
+import TodoList from "./components/todolist/TodoList";
+
 function App() {
   return (
     <>
+      <h1> To Do List</h1>
+
       <div className="app">
-        <Header />
-        <Body />
+        <TodoList />
       </div>
     </>
   );
